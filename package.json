@@ -1,0 +1,15 @@
+{
+  "name": "simultaneous-interpreter",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Local web app for live speech interpretation with OpenAI-compatible LLM APIs.",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "ws": "^8.21.0"
+  }
+}
